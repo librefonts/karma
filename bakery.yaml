@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Karma-Medium.ttf.ttx, Karma-Light.ttf.ttx, Karma-Bold.ttf.ttx, Karma-SemiBold.ttf.ttx,
+  Karma-Regular.ttf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
